@@ -19,8 +19,7 @@ section{
 }
 
 .background-photo {
-  background-position: center;
-  background-size: cover;
+  width: 100%;
   position: fixed;
   filter: blur(5px);
 }
@@ -35,7 +34,7 @@ section{
   text-align: center;
 }
 
-.jon-photo {
+.main-photo {
   height: 200px;
   border-radius: 150px;
   position: relative;
@@ -56,6 +55,7 @@ section{
   opacity: 0.9;
   padding: 5px;
   text-align: center;
+  border-radius: 15px;
 }
 
 .about-me-paragraph a {
@@ -82,6 +82,7 @@ section{
   opacity: 0.99;
   text-align: center;
   padding: 5px;
+  border-radius: 15px;
 }
 
 .project {
@@ -100,11 +101,13 @@ section{
   color: black;
   background-color: white;
   display: none;
+  border-radius: 15px;
 }
 
 .app-title {
   margin: 0 auto;
   font-weight: 700;
+  border-bottom: 2px solid black;
 }
 
 .app-description {
@@ -115,28 +118,9 @@ section{
   padding: 0px 10px;
 }
 
-.frogger {
-  background-image: url('images/frogger.png');
-}
-
-.url {
-  background-image: url('images/shorten-url.png');
-}
-
-.ideabox {
-  background-image: url('images/ideabox.png');
-}
-
-.movie-tracker {
-  background-image: url('images/movie-tracker.png');
-}
-
-.weathrly {
-  background-image: url('images/weathrly.png');
-}
-
-.money {
-  background-image: url('images/money2.png');
+.woodworking {
+  background-image: url('images/woodworking.jpeg');
+  border-radius: 15px;
 }
 
 
@@ -148,8 +132,9 @@ footer {
 }
 
 footer a {
-  margin-top: 30px;
+  margin-top: 10px;
   color: white;
   display: inline-block;
   text-decoration: none;
+  position: relative;
 }
