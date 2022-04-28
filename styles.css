@@ -50,7 +50,8 @@ section{
 }
 
 .about-me-paragraph {
-  max-width: 675px;
+  max-width: 75%;
+  min-width: 300px;
   background-color: #181818;
   opacity: 0.9;
   padding: 5px;
@@ -63,24 +64,13 @@ section{
   color: white;
 }
 
-.hello {
-  margin: 10px auto 0 auto;
-  max-width: 675px;
-  font-size: 24px;
-  font-weight: 700;
-  background-color: #181818;
-  opacity: 0.9;
-  text-align: center;
-  padding: 5px;
-}
-
 .projects-section {
-  max-width: 675px;
+  max-width: 80%;
   align-self: center;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   background-color: #181818;
-  opacity: 0.99;
   text-align: center;
   padding: 5px;
   border-radius: 15px;
@@ -109,7 +99,7 @@ section{
 .app-title {
   margin: 0 auto;
   font-weight: 700;
-  border-bottom: 2px solid black;
+  padding-bottom: 10px;
 }
 
 .app-description {
@@ -120,11 +110,25 @@ section{
   padding: 0px 10px;
 }
 
-.woodworking {
-  background-image: url('images/woodworking.jpeg');
+.blue-bar {
+  background-image: url('images/blue-basement-bar/blue-basement-bar-4.jpeg');
   border-radius: 15px;
 }
 
+.dining-table {
+  background-image: url('images/gray-maple-dining-table/gray-maple-dining-table-3.jpeg');
+  border-radius: 15px;
+}
+
+.wine-cabinet {
+  background-image: url('images/gray-wine-cabinet/gray-wine-cabinet-3.jpeg');
+  border-radius: 15px;
+}
+
+.oak-kitchen {
+  background-image: url('images/oak-kitchen/qtr-sawn-oak-kitchen-5.jpeg');
+  border-radius: 15px;
+}
 
 footer {
   max-width: 650px;
