@@ -1,9 +1,9 @@
 $('.project').hover(
   function() {
-    $(this).find('div').css('display', 'block')
+    $(this).find('div').css('display', 'block');
   },
 
   function() {
-    $(this).find('div').css('display', 'none')
+    $(this).find('div').css('display', 'none');
   }
-)
+);
