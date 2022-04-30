@@ -65,7 +65,7 @@ section{
 }
 
 .projects-section {
-  max-width: 80%;
+  max-width: 65%;
   align-self: center;
   display: flex;
   flex-wrap: wrap;
